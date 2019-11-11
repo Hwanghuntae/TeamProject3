@@ -49,16 +49,16 @@ public class MyHelloFrameListener extends KeyAdapter implements MouseListener
         switch(keyCode) {
             case KeyEvent.VK_UP:
                 jl.setLocation(jl.getX(), jl.getY()-FLYING_UNIT);
-                
+                break;
             case KeyEvent.VK_DOWN:
                 jl.setLocation(jl.getX(), jl.getY()+FLYING_UNIT); 
-              
+                break;
             case KeyEvent.VK_LEFT:
                 jl.setLocation(jl.getX()-FLYING_UNIT, jl.getY());
-            
+                break;
             case KeyEvent.VK_RIGHT:
                 jl.setLocation(jl.getX()+FLYING_UNIT, jl.getY()); 
-           
+                break;
         }
     }
 }
