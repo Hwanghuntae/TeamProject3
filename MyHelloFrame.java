@@ -2,7 +2,7 @@ import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
 /**
- * 여기에 MyHelloFrame 클래스 설명을 작성하십시오.
+ * 패널과 레이블을 생성하여 기능을 보여주는 틀을 만드는 클래스
  * 
  * @author (2018315009 황훈태, 2018315026 정대기) 
  * @version (2019-11-11)
