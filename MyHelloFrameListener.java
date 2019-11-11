@@ -2,7 +2,7 @@ import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
 /**
- * 여기에 MyHelloFrameListener 클래스 설명을 작성하십시오.
+ * 마우스를 클릭한 좌표로 HELLO를 출력하고 상하좌우 키보드로 HELLO를 움직이게 하는 기능을 구현한 클래스
  * 
  * @author (2018315009 황훈태, 2018315026 정대기) 
  * @version (2019-11-11)
