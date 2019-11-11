@@ -4,8 +4,8 @@ import javax.swing.*;
 /**
  * 여기에 MyHelloFrameListener 클래스 설명을 작성하십시오.
  * 
- * @author (작성자 이름) 
- * @version (버전번호나 날짜)
+ * @author (2018315009 황훈태, 2018315026 정대기) 
+ * @version (2019-11-11)
  */
 public class MyHelloFrameListener extends KeyAdapter implements MouseListener
 
@@ -13,6 +13,7 @@ public class MyHelloFrameListener extends KeyAdapter implements MouseListener
     private final int FLYING_UNIT = 10;
     JPanel jp;    
     JLabel jl;
+    // 컨스트럭터를 통해 생성자와 레이블을 가져온다.
     public MyHelloFrameListener(JPanel jp, JLabel jl)
     {
         this.jp = jp;
@@ -30,7 +31,8 @@ public class MyHelloFrameListener extends KeyAdapter implements MouseListener
     public void mouseExited(MouseEvent e){
 
     }
-
+    
+    // mousePressed 메소드 구현
     public void mousePressed(MouseEvent e){
         int x = e.getX();
         int y = e.getY();
